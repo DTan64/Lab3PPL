@@ -1,0 +1,11 @@
+const x = 1;
+const g = function g(y) { const c = x; const x = c - 1; return y === 0 ? 1 : c* g(x) };
+const h = function h(y) { return x };
+h(3)
+
+
+
+//const x = 1;
+//const g = function g(y) { return y === 0 ? 1 : x * g(x - 1) };
+//const h = function h(x) { return g(2) };
+//h(3)
